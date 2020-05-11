@@ -2,5 +2,5 @@
 
 class User < ApplicationRecord
   include Authentication
-  # has_many :entries
+  has_many :entries
 end

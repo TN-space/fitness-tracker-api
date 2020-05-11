@@ -1,10 +1,10 @@
-curl --include --request PATCH "http://localhost:4741/destinations/${ID}" \
+curl --include --request PATCH "http://localhost:4741/entries/${ID}" \
   --header "Authorization: Token token=${TOKEN}" \
   --header "Content-Type: application/json" \
   --data '{
     "entry": {
         "date": "'"${DATE}"'",
-        "type": "'"${TYPE}"'",
+        "activity": "'"${ACTIVITY}"'",
         "duration": "'"${DURATION}"'",
         "note": "'"${NOTE}"'"
     }
