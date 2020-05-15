@@ -40,6 +40,7 @@ An app to record your fitness progress, a user can:
 ![ERD](lib/images/ERD.jpg)
 
 ### Stretch Goals
-- Implement a filter by time (oldest to newest and vice versa), my activity, etc
+- Have a share button to share your proud moment on social medias.
+- Implement a filter by time (oldest to newest and vice versa), my activity, etc.
 - Click-able date, when clicked will show all entries with the same date.
 - Create a search bar that will able to search for similar words.
